@@ -1,0 +1,90 @@
+Even or Odd: O(1) Big-Ω O(1)
+No matter how large the input is the run time never goes up at all.
+
+Are you Here?: O(i*j) Big-Ω O(1)
+The run time increases in a polynomial fashion because it has a nested loop that goes through two arrays.
+
+Doubler: O(n) Big-Ω O(n)
+The run time is linear because it has a loop that iterates through the array multiplying the value by 2.
+
+Naive Search: O(n) Big-Ω O(1)
+The run time is linear because its possible that the function will not have a match until the end of the array.
+
+Creating pairs: O(n^2) Big-Ω O(n^2)
+The best case and worst case scenario in this situation are polynomial because there is no return its a logging function.
+
+
+Computing Fibonaccis: O(n) Big-Ω O(n)
+The run time is linear and cant get any better because it always loops up to n times every time.
+
+An Efficient Search: O(log(n)) Big-Ω O(1)
+The run time is logarithmic because the array is halved at each iteration the number of steps to finish will be much less than the size of the input.
+
+Random Element: O(1) Big-Ω O(1)
+The lookup for this array would be constant time since the size of the array would have no effect on the run time.
+
+Is it prime?: O(n) Big-Ω O(1)
+The run time is linear because the loop scales directly with the input.
+
+RECURSIVE DRILLS
+
+Counting Sheep: O(n) Big-Ω O(1)
+The run time will be linear because it will count down the sheep to zero.
+
+Array Double: O(n) Big-Ω O(1)
+This will be linear at worst and constant if the array is empty.
+
+Reverse String: O(n) Big-Ω O(1)
+This will be linear and constant if the string is empty.
+
+nth Triangular Number: O(n) Big-Ω O(1)
+This will be linear worst case and constant in the event x = 0;
+
+String Splitter: O(n) Big-Ω O(1)
+The worst case is linear in which the string would be all splitters. The best case is there are no splitters of that type. 
+
+Binary Representation: O(log(n)) Big-Ω O(1)
+Due to the method of choosing the center item and the list being sorted already we can say this is logarithmic since the steps to find the item will be lower than the input.
+
+Factorial:  O(n) Big-Ω O(1)
+The run time is linear because it will run n times. best case it only runs once.
+
+Fibonacci:  O(c^n) Big-Ω O(1)
+The run time would become exponential due to the way its calculated the fib number requires the previous two fib numbers so as the input grows you would get exponentially more calls.
+
+Anagrams: O(!n) Big-Ω O(1)
+Per character the run time increases factorially because for each character added the function will bring that character to the front of the string and recursively genereate the rest of the anagrams.
+this means !n
+
+Animal Hierachy: O(n) Big-Ω O(1)
+The filter function reduces the complexity by reducing the array size and the overall run time to O(n).
+
+Organizer: O(n)
+The run time is linear since it only has to access each key once.
+
+
+Iterative DRILLS
+
+Counting Sheep: O(n) Big-Ω O(1)
+The run time will be linear because it will iterate n times only.
+
+Array Double: O(n) Big-Ω O(1)
+This will be linear at worst and constant if the array is empty.
+
+Reverse String: O(n) Big-Ω O(1)
+This will be linear and constant if the string is empty.
+
+nth Triangular Number: O(n) Big-Ω O(1)
+This will be linear worst case and constant in the event x = 0;
+
+String Splitter: O(n) Big-Ω O(1)
+The worst case is linear in which the string would be all splitters. The best case is there are no splitters of that type. 
+
+Binary Representation: O(log(n)) Big-Ω O(1)
+Due to the method of choosing the center item and the list being sorted already we can say this is logarithmic since the steps to find the item will be lower than the input.
+
+Factorial:  O(n) Big-Ω O(1)
+The run time is linear because it will run n times. best case it only runs once.
+
+Fibonacci:  O(n) Big-Ω O(n)
+The iterative version of this problem is linear because the actions inside the loop are runnign at constant time and the loop itself only executes equal to the size of the number.
